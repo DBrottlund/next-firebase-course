@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-  --color-bg: #eef0f1;
-  --color-text: #08090a;
-  --color-blue: #3b49df;
-  --color-red: #df3b3b;
-  --color-green: #3bdf72;
-  --color-gray: #b5bdc4;
+  --color-bg: #001219;
+  --color-text-dark: #001219;
+  --color-text: #f0f0f0;
+  --color-blue: #005F73;
+  --color-red: #9B2226;
+  --color-green: #94D2BD;
+  --color-gray-light: #4E5255;
+  --color-gray-dark: #303436;
+  --color-navbar-bg: #005F73;
+  --card-bg: #002C3D;
 }
 html,
 body {
@@ -64,13 +68,13 @@ code {
 .navbar {
   height: 70px;
   width: 100%;
-  background: white;
+  background: var(--color-navbar-bg);
   color: var(--colors-text);
   position: fixed;
   top: 0;
   padding: 0 10vw;
   font-weight: bold;
-  border-bottom: 1px solid var(--color-gray);
+  border-bottom: 1px solid var(--color-gray-light);
   z-index: 99;
 }
 
@@ -99,10 +103,10 @@ code {
 /* Buttons */
 
 .btn, button {
-  background-color: var(--color-gray);
+  background-color: var(--color-gray-dark);
   border: none;
-  color: var(--color-text);
-  padding: 1rem 2rem;
+  color: var(--color-text-light);
+  padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
   text-align: center;
@@ -145,7 +149,7 @@ button.btn-red {
 
 button.btn-green {
   background-color: var(--color-green);
-  color: white;
+  color: var(--color-text-dark);
 }
 
 button.btn-google {
@@ -159,8 +163,8 @@ button.btn-google {
 }
 
 button.btn-logo {
-  background-color: var(--color-text);
-  color: white;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   text-transform: uppercase;
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
@@ -171,8 +175,8 @@ button.btn-logo {
 .card {
   padding: 2rem;
   margin: 1rem 0;
-  background-color: white;
-  border: 1px solid var(--color-gray);
+  background-color: var(--card-bg);
+  border: 1px solid var(--color-gray-light);
   border-radius: 8px;
 }
 
@@ -218,7 +222,7 @@ input[type="file"] {
 .upload-snippet {
   width: 75%;
     margin-left: auto;
-    background: white;
+    background: var(--color-blue);
     padding: 5px;
     margin: 5px 0;
 }
