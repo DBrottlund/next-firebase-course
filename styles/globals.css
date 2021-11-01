@@ -147,14 +147,19 @@ button.btn-red {
   color: white;
 }
 
-button.btn-green {
+button.btn-green, label.label-btn-green {
   background-color: var(--color-green);
   color: var(--color-text-dark);
 }
+/* 
+label.label-btn-green {
+  background-color: var(--color-green)!important;
+  color: var(--color-text-dark)!important;
+} */
 
 button.btn-google {
   background-color: white;
-  color: var(--color-text);
+  color: var(--color-text-dark);
 }
 
 .btn-google img {

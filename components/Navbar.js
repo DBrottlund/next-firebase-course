@@ -3,6 +3,8 @@ import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import { UserContext } from '@lib/context';
 import { auth } from '@lib/firebase';
+import { IoGitMerge } from 'react-icons/io5';
+
 
 // Top navbar
 export default function Navbar() {
@@ -20,7 +22,7 @@ export default function Navbar() {
       <ul>
         <li>
           <Link href="/">
-            <button className="btn-logo">NXT</button>
+            <button className="btn-logo"><IoGitMerge /></button>
           </Link>
         </li>
 
@@ -47,7 +49,7 @@ export default function Navbar() {
         {!username && (
           <li>
             <Link href="/enter">
-              <button className="btn-blue">Log in</button>
+              <button className="btn-gray">Log in</button>
             </Link>
           </li>
         )}
