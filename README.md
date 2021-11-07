@@ -2,7 +2,10 @@
 
 - [From:URL](https://fireship.io/courses/react-next-firebase/)
 
-- [Live Demo](https://next.fireship.io/)
+- [Live Demo -  Dev](https://next-firebase-course-mvd54f22w-dbrottlund.vercel.app)
+- [Live Demo -  Prod](https://next-firebase-course-jet.vercel.app/)
+
+
 
 - 👨‍🎤 Custom Firebase usernames
 - 📰 Bot-friendly content (SEO)
