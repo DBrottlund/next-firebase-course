@@ -1,6 +1,6 @@
 ## Next.js + Firebase - Example App
 
-- [FROM](https://fireship.io/courses/react-next-firebase/)
+- [From:URL](https://fireship.io/courses/react-next-firebase/)
 
 - [Live Demo](https://next.fireship.io/)
 
